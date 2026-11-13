@@ -38,3 +38,29 @@ El diseño se completa con código en dos momentos:
 La evaluación está detallada en `EVALUACION.md`.
 
 *Laboratorio 3, IDSD422, Estadística y Programación para Ciencia de Datos I, 2026-B.*
+
+
+## Ejecución de los scripts
+
+Ejecutar desde la raíz del repositorio.
+
+### Python
+
+Instalar dependencias:
+
+python -m pip install pandas numpy scipy
+
+Ejecutar:
+
+python scripts/comparacion_experimento.py
+
+Este script genera plantillas/resultado_simulacion.csv.
+
+### R
+
+Después de ejecutar Python, se ejecuta el archivo R con el siguiente comando en la terminal:
+
+Rscript scripts/comparacion_experimento.R
+
+El script R utiliza el CSV generado por Python para
+reproducir la comparación estadística.

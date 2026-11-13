@@ -6,6 +6,8 @@
 # 1. Cargar los datos originales
 # -----------------------------------------------------------
 
+# TODO 1: Cargar registro_experimento.csv
+
 df <- read.csv(
   "plantillas/registro_experimento.csv",
   stringsAsFactors = FALSE
@@ -14,7 +16,7 @@ df <- read.csv(
 cat("=== DATOS ORIGINALES ===\n")
 print(df)
 
-# TODO 1: Cargar registro_experimento.csv
+
 # TODO 2: Calcular el promedio por ubicación
 
 cat("\n--- PROMEDIO DE VENTAS POR UBICACIÓN ---\n")

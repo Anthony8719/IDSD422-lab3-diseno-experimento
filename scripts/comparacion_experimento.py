@@ -16,12 +16,12 @@ CARPETA_DATOS = RAIZ / "plantillas"
 # 1. Cargar los datos originales
 # -----------------------------------------------------------
 
+# TODO 1: Cargar registro_experimento.csv
 df = pd.read_csv(CARPETA_DATOS / "registro_experimento.csv")
 
 print("=== DATOS ORIGINALES ===")
 print(df.to_string(index=False))
 
-# TODO 1: Cargar registro_experimento.csv
 # TODO 2: Calcular el promedio por ubicación
 
 print("\n--- PROMEDIO DE VENTAS POR UBICACIÓN ---")
